@@ -1,6 +1,6 @@
 // Passbook app-shell cache. Caches only the static shell (HTML/CSS/JS/icons) —
 // your actual entries are never cached here; they always come live from GitHub.
-var CACHE_NAME = 'passbook-shell-v1';
+var CACHE_NAME = 'passbook-shell-v2';
 var SHELL_FILES = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', function(event){
